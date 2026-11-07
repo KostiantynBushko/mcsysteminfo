@@ -1,0 +1,36 @@
+# Build directories
+build/
+build-*/
+cmake-build-*/
+
+# CMake artefacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+Testing/
+compile_commands.json
+*.cmake.stamp
+
+# Compiled objects and binaries
+*.o
+*.a
+*.so
+*.so.*
+*.d
+/mcsysteminfo
+/mcsysteminfo_test
+
+# Packaging
+*.tar
+*.tar.gz
+*.ipk
+*.deb
+*.rpm
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~

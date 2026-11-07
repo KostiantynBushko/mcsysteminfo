@@ -1,0 +1,24 @@
+#ifndef MCSYSTEMINFO_VERSION_HPP
+#define MCSYSTEMINFO_VERSION_HPP
+
+#define MCSYSTEMINFO_VERSION_MAJOR @PROJECT_VERSION_MAJOR@
+#define MCSYSTEMINFO_VERSION_MINOR @PROJECT_VERSION_MINOR@
+#define MCSYSTEMINFO_VERSION_PATCH @PROJECT_VERSION_PATCH@
+#define MCSYSTEMINFO_VERSION       "@PROJECT_VERSION@"
+#define MCSYSTEMINFO_VERSION_STRING "@PROJECT_VERSION@"
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+/// Numeric version string, e.g. "0.1.0".
+const char* mcsysteminfo_version(void);
+
+/// Human readable version, e.g. "mcsysteminfo 0.1.0".
+const char* mcsysteminfo_version_string(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif /* MCSYSTEMINFO_VERSION_HPP */
