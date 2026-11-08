@@ -34,3 +34,6 @@ compile_commands.json
 .idea/
 *.swp
 *~
+
+# Agent workspace metadata
+.agentworkspace.json
